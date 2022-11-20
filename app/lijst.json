@@ -1,0 +1,50 @@
+{
+   "bieren":[
+      {
+        "bierId": 1,
+        "naam":"Westvleteren blond",
+        "kostprijs": 12.90,
+        "volume": 33
+      },
+      {
+        "bierId": 2,
+        "naam":"Chimay",
+        "kostprijs": 3.21,
+        "volume": 33
+      },
+      {
+        "bierId": 3,
+        "naam":"Orval",
+        "kostprijs": 4.60,
+        "volume" :33
+      },
+      {
+        "bierId": 4,
+        "naam":"Westmalle Tripel",
+        "kostprijs": 2.78,
+        "volume": 33
+      }
+   ],
+   "cocktails":[
+      {
+        "cocktailId": 1,
+        "naam":"Bloody Mary",
+        "ingrediënten": ["tomatensap", "wodka"]
+      },
+      {
+        "cocktailId": 2,
+        "naam":"Tequila Sunrise",
+        "ingrediënten": ["vruchtensap", "grenadine", "tequila"]
+      },
+      {
+        "cocktailId": 3,
+        "naam":"Whiskey-cola",
+        "ingrediënten": ["whiskey", "cola"]
+      },
+      {
+        "cocktailId": 4,
+        "naam":"Sangria",
+        "ingrediënten": ["rode wijn", "sinaasappel"]
+      }
+   ]
+}
