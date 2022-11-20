@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import json
 import random
 
-with open("app/lijst.json") as dranken:
+with open("./lijst.json") as dranken:
     lijst = json.load(dranken)
 
 
