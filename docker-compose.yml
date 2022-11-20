@@ -1,9 +1,8 @@
 version: "3.9"
-dranken-services:
- build:
-  dockerfile: Dockerfile
-  context: .
- randomizer-service:
-  image: miverboven/python-api-test
+service:
+ dranken-service:
+  build:
+   dockerfile: Dockerfile
+   context: .
   ports:
     - "8000:8000"
