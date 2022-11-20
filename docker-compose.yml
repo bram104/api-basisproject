@@ -1,5 +1,5 @@
 version: "3.9"
-services:
+dranken-services:
  randomizer-service:
   image: miverboven/python-api-test
   ports:
